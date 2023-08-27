@@ -22,7 +22,8 @@ nav ul {
     gap: 2rem;
     list-style: none;
 }
-/* Nav Logo */
+
+  /* Nav Logo */
 .image img {
     width: 50px;
 }
@@ -39,18 +40,29 @@ nav ul li a:hover {
 }
 
 
-/*  Konten */
+  /*  Konten */
 .container {
     height: auto;
     margin: 20px;
-    background: #c1c1c1;
+}
+.container .home img{
+    height: auto;
+    width: 100%;
 }
 
 .home{
-    height: 700px;
+    height: 100%;
+    font-size: 14;
+}
+/*  Facilitation */
+.Ourf {
+    height: 100%;
+    font-size: 12;
+}
+.container img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
 }
 
-.Ourf {
-    height: 400px;
-    color: #E50914;
-}
+  /* Form */
