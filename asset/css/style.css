@@ -22,8 +22,8 @@ nav ul {
     gap: 2rem;
     list-style: none;
 }
-
-nav div img {
+/* Nav Logo */
+.image img {
     width: 50px;
 }
 
@@ -38,11 +38,19 @@ nav ul li a:hover {
     color: #E50914;
 }
 
+
 /*  Konten */
 .container {
-    height: 500px;
+    height: auto;
+    margin: 20px;
+    background: #c1c1c1;
+}
+
+.home{
+    height: 700px;
 }
 
 .Ourf {
-    height: 500px;
+    height: 400px;
+    color: #E50914;
 }
